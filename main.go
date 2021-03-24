@@ -30,8 +30,8 @@ var url string = "https://www.rottenacker.de/"
 var events []event
 var tcounter int
 
-const baseurl string = "http://192.168.0.10:8123/api/services/script/" # URL of your Home Assisstant
-const token string = "Bearer eyJ0[... approx. 100 more...]nvzZo" # Bearer Token of your Home Assisstant
+const baseurl string = "http://192.168.0.10:8123/api/services/script/" # URL of your Home Assistant
+const token string = "Bearer eyJ0[... approx. 100 more...]nvzZo" # Bearer Token of your Home Assistant
 
 func applyScene(e string) {
 	reqData := r{
